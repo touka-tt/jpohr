@@ -583,6 +583,23 @@ pre.editor-colors .fold-marker:after {
 </style>
         </head>
         <body class='markdown-preview' data-use-github-style><h1 id="日本版ohr的なもの企画書">日本版OHR的なもの企画書</h1>
+<hr>
+<ul>
+<li>書いた人<ul>
+<li>Takayuki Tominaga</li>
+<li><a href="https://twitter.com/touka_tt">@touka_tt</a></li>
+</ul>
+</li>
+<li>執筆日<ul>
+<li>2019.05.01</li>
+</ul>
+</li>
+<li>更新日<ul>
+<li>2019.05.02</li>
+</ul>
+</li>
+</ul>
+<hr>
 <h2 id="所信等">所信等</h2>
 <ul>
 <li>昨今のコロナの影響でクラブイベントがすっかりご無沙汰になっており、緊急の自粛要請が仮に5月に解けたとして、すぐにはイベント再開とはならないと見込まれる</li>
@@ -601,7 +618,7 @@ pre.editor-colors .fold-marker:after {
 <li>時間は出演者との要調整</li>
 </ul>
 <h2 id="構成">構成</h2>
-<p><img alt="./kousei.png" src="/Users/touka_tt/Desktop/jpohr/kousei.png"></p>
+<p><img alt="kousei.png" src="https://touka1037.github.io/jpohr/kousei.png"></p>
 <ul>
 <li>所謂”Music Unity”方式を応用したもの<ul>
 <li>DJの音声をRTMPサーバを中継する形でVJに連携</li>
@@ -613,7 +630,11 @@ pre.editor-colors .fold-marker:after {
 <li>音楽についてはJASRACと包括契約を結んでいるため、それが原因で止まる心配が無い</li>
 </ul>
 </li>
-<li>超ザックリとしたAzureのインフラのコスト試算は1時間当たり<strong>約300円</strong>です。</li>
+<li>超ザックリとしたAzureのインフラのコスト試算は1時間当たり<strong>約300円</strong>です。<ul>
+<li>構築費用とか、保守とかのコストを含んでない</li>
+<li>すでに別件のイベントで私構築済みなのでいったん無視します</li>
+</ul>
+</li>
 </ul>
 <h3 id="インフラ試算内訳">インフラ試算内訳</h3>
 <table>
@@ -623,33 +644,32 @@ pre.editor-colors .fold-marker:after {
 <th>配信サーバ</th>
 <th>RMMPサーバ</th>
 <th>通信トラフィック</th>
+<th>合計</th>
 </tr>
 </thead>
 <tbody><tr>
 <td><strong>単価</strong></td>
-<td>¥137.088/h</td>
-<td>¥3.0464/h</td>
+<td>¥137.088/h<br>東日本リージョン<br>NV6Promo<br>Windows10</td>
+<td>¥3.0464/h<br>東日本リージョン<br>B1ms<br>CentOS7.7</td>
 <td>¥13.44/GB</td>
+<td>--</td>
 </tr>
 <tr>
 <td><strong>数量</strong></td>
 <td>1台</td>
 <td>4台</td>
-<td>10.8GB/h<br>OBS出力および配信サーバのRDPの帯域幅を6000kbpsとする前提</td>
+<td>10.8GB/h<br>(OBS出力および配信サーバのRDPの帯域幅を6000kbpsとする前提)</td>
+<td>--</td>
 </tr>
 <tr>
 <td><strong>小計</strong></td>
 <td>¥137.088/h</td>
 <td>¥12.1856/h</td>
 <td>¥145.152/h</td>
-</tr>
-<tr>
-<td><strong>合計</strong></td>
-<td>--</td>
-<td>--</td>
-<td>¥294.4256</td>
+<td><strong>¥294.4256/h</strong></td>
 </tr>
 </tbody></table>
+<p>NV6Promoインスタンスがまだ提供されてるのでここまで安いけど、そのうちPromoの提供なくなるのが少し悩ましい</p>
 <h2 id="メンバ">メンバ</h2>
 <h3 id="vj">VJ</h3>
 <ul>
