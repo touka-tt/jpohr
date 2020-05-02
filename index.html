@@ -628,11 +628,20 @@ pre.editor-colors .fold-marker:after {
 </li>
 <li>配信先はいったんTwitchを想定<ul>
 <li>音楽についてはJASRACと包括契約を結んでいるため、それが原因で止まる心配が無い</li>
+<li>AzureのDCから出て行くトラフィックに対して従量課金が発生するので、複数サイトでのミラー配信はしない<ul>
+<li>チャット欄も一箇所の方が盛り上がりそうなので、そういう意味でも一箇所でやったほうが良さそう。</li>
 </ul>
 </li>
-<li>超ザックリとしたAzureのインフラのコスト試算は1時間当たり<strong>約300円</strong>です。<ul>
+</ul>
+</li>
+<li>超ザックリとしたAzureのインフラのコスト試算は<strong>1時間当たり約300円</strong>です。<ul>
 <li>構築費用とか、保守とかのコストを含んでない</li>
 <li>すでに別件のイベントで私が構築済みなのでいったん無視します</li>
+</ul>
+</li>
+<li>zukutya君に相談したところ、「AWSにMediaLiveっていう動画処理に特化したマネージドサービスあるよ」とのこと。<ul>
+<li>コスト面も含めて要検討</li>
+<li>AzureにもMediaServiceっていうマネージドサービスあり（使ったことないけど</li>
 </ul>
 </li>
 </ul>
@@ -669,12 +678,12 @@ pre.editor-colors .fold-marker:after {
 <td><strong>¥294.4256/h</strong></td>
 </tr>
 </tbody></table>
-<p>NV6Promoインスタンスがまだ提供されてるのでここまで安いけど、そのうちPromoの提供なくなるのが少し悩ましい</p>
+<p>NV6のPromoインスタンスがまだ提供されてるのでここまで安いけど、じきにPromoの提供がなくなる。<br>NV6インスタンスの通常価格は¥199.136/hなので、<strong>¥356.4736/hが通常価格</strong></p>
 <h2 id="メンバ">メンバ</h2>
 <h3 id="vj">VJ</h3>
 <ul>
 <li>VJには私<a href="https://twitter.com/touka_tt">@touka_tt</a>と、AWSのエンジニアやってるzukutya君<a href="https://twitter.com/zukutya">@zukutya</a>をアサインしたい気持ち<ul>
-<li>まだ話すらしてない</li>
+<li>とりあえず彼と会話してみる</li>
 <li>実現したらTokyo GabberdiscoのVJコンビになるかな</li>
 </ul>
 </li>
@@ -687,7 +696,8 @@ pre.editor-colors .fold-marker:after {
 <h3 id="マネタイズ">マネタイズ</h3>
 <ul>
 <li>配信イベントのマネタイズ難しすぎる</li>
-<li>いったん視聴者からの募金でどの程度あつまるのかを見たい<ul>
+<li>投げ銭<ul>
+<li>オンライン配信イベントはこっちが主流な気がする<ul>
 <li>PayPal donation<ul>
 <li>正直使ったことないので、知見ある方いたら聞きたい・・・</li>
 </ul>
@@ -696,6 +706,12 @@ pre.editor-colors .fold-marker:after {
 <li>JEAさんに教えて貰った。某所で申請すれば通りそう。</li>
 </ul>
 </li>
+</ul>
+</li>
+</ul>
+</li>
+<li>チケット<ul>
+<li>配信イベントは現地の</li>
 </ul>
 </li>
 </ul></body>
