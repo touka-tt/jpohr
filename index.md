@@ -46,7 +46,7 @@
 ### 中継サーバRTMPサーバ
 [SRS](https://github.com/ossrs/srs)を使っています。
 低遅延モードで動かすDockerImageを作って公開しました。    
-[https://hub.docker.com/repository/docker/touka1037/srs](https://hub.docker.com/repository/docker/touka1037/srs)  
+[https://hub.docker.com/r/touka1037/srs](https://hub.docker.com/r/touka1037/srs)  
 
 ```bash
 docker run -p 1935:1935 -p 1985:1985 -p 8080:8080 touka1037/srs:latest
