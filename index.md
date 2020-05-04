@@ -26,6 +26,7 @@
 * 時間は出演者との要調整
 
 ## 構成
+### 構成図
 ![kousei.png](https://touka1037.github.io/jpohr/kousei.png)
 * 所謂”Music Unity”方式を応用したもの
   * DJの音声をRTMPサーバを中継する形でVJに連携
@@ -42,7 +43,7 @@
   * コスト面も含めて要検討
   * AzureにもMediaServiceっていうマネージドサービスあり（使ったことないけど
 
-## 中継サーバRTMPサーバ
+### 中継サーバRTMPサーバ
 [SRS](https://github.com/ossrs/srs)を使っています。
 低遅延モードで動かすDockerImageを作って公開しました。    
 [https://hub.docker.com/repository/docker/touka1037/srs](https://hub.docker.com/repository/docker/touka1037/srs)  

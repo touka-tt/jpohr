@@ -618,6 +618,7 @@ pre.editor-colors .fold-marker:after {
 <li>時間は出演者との要調整</li>
 </ul>
 <h2 id="構成">構成</h2>
+<h3 id="構成図">構成図</h3>
 <p><img alt="kousei.png" src="https://touka1037.github.io/jpohr/kousei.png"></p>
 <ul>
 <li>所謂”Music Unity”方式を応用したもの<ul>
@@ -645,7 +646,7 @@ pre.editor-colors .fold-marker:after {
 </ul>
 </li>
 </ul>
-<h2 id="中継サーバrtmpサーバ">中継サーバRTMPサーバ</h2>
+<h3 id="中継サーバrtmpサーバ">中継サーバRTMPサーバ</h3>
 <p><a href="https://github.com/ossrs/srs">SRS</a>を使っています。
 低遅延モードで動かすDockerImageを作って公開しました。<br><a href="https://hub.docker.com/repository/docker/touka1037/srs">https://hub.docker.com/repository/docker/touka1037/srs</a>  </p>
 <pre class="editor-colors lang-bash"><div class="line"><span class="syntax--source syntax--shell"><span class="syntax--entity syntax--name syntax--function">docker</span> run <span class="syntax--entity syntax--other syntax--attribute-name">-p</span> 1935:1935 <span class="syntax--entity syntax--other syntax--attribute-name">-p</span> 1985:1985 <span class="syntax--entity syntax--other syntax--attribute-name">-p</span> 8080:8080 touka1037/srs:latest</span></div></pre>
