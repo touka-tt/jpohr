@@ -6,9 +6,9 @@
   * Takayuki Tominaga
   * [@touka_tt](https://twitter.com/touka_tt)
 * 執筆日
-  * 2019.05.01
+  * 2020.05.01
 * 更新日
-  * 2019.05.04
+  * 2020.05.04
 
 ---
 
