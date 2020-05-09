@@ -33,9 +33,10 @@
   * どうですかね？
 
 ### ドメイン
-とりあえず[huub.club](huub.club)をとりました。
+とりあえず[huub.club](https://huub.club)をとりました。
 * 暇を見つけてそれっぽい告知サイトつくりたい。
   * 仮サイトできました。
+  * リポジトリは(huubclub/huub-web)[https://github.com/huubclub/huub-web]です。
 
 ## 開催予定日
 * 5月〜6月のどこかの週末
