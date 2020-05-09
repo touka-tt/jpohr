@@ -1,3 +1,8 @@
+---
+layout: default
+title: 日本版OHR的なもの企画書
+---
+
 # 日本版OHR的なもの企画書
 
 ---
