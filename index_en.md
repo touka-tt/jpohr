@@ -94,7 +94,7 @@ docker run -p 1935:1935 -p 1985:1985 -p 8080:8080 touka1037/srs:latest
     * Othermoon
 
 ### Monetize
-* Monetizing the delivery event is too difficult
+* Monetizing the streaming event is really difficult
 * Donation
   * I feel like this is the mainstream of online distribution events.
     * PayPal donation
