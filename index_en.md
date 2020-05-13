@@ -1,13 +1,15 @@
 # A proposal for a Japanese version of OHR
 
 ---
+
 * Written by.
   * Takayuki Tominaga
   * [@touka_tt](https://twitter.com/touka_tt)
-* Writing Date.
+* Writing Date
   * 01.05.2020
-* Updated Date.
+* Updated Date
   * 13.05.2020
+
 ---
 
 ## Abstract
