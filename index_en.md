@@ -5,15 +5,16 @@
 * Written by.
   * Takayuki Tominaga
   * [@touka_tt](https://twitter.com/touka_tt)
+* English translation by.
+  * BrainShit
 * Writing Date
   * 01.05.2020
 * Updated Date
   * 14.05.2020
-
 ---
 
 ## Abstract
-* With Corona's recent absence from club events, it's unlikely that events will resume any time soon, even if the urgent call for restraint is lifted in May
+* Due to the recent corona impact, club events have been completely stopped, and even if the urgent stay at home request is lifted in May, it is unlikely that club events will resume immediately.
 * When we tried to build the infrastructure for another distribution event, I found out that there is nothing we can't do, although it will cost some money.
   * It is well known that there are many engineers among hardcore and breakcore artists, and although there are many technical difficulties, the hurdle of implementation may actually be low because all of them are highly IT literate.
 * There are online parties abroad like OHR(https://www.facebook.com/ohr.party/), but there are no similar parties in Japan
@@ -24,10 +25,10 @@
 
 ## Event Name
 ### Huub
-* It's a wheeled hub with a u(You) added to it.
+* It’s a wheel hub with a u(You) added to it.
   * With the meaning of a place that holds you together.
 * The source of the association is the Cyber Hub where Kuze connected the refugees in Ghost in the Shell S.A.C. 2nd GIG.
-  * I like the way artists in remote values converge in one place through a thin network, reminiscent of wheel rims, spokes and hubs.
+  * Artists in remote locations converge in one place through a thin network, reminiscent of wheel rims, spokes and hubs.
   * It would be great if we could create a place to connect artists, DJs, VJs, and audiences who have been scattered due to various influences of the times.
 * What do you think?
 
@@ -47,7 +48,7 @@ In the meantime, I took the "[huub.club](https://huub.club)".
 ### Configuration diagram
 ![HuubDiagram](https://touka1037.github.io/jpohr/HuubDiagramEn.png)
 * This is an application of the so-called "Music Unity" method.
-  * Linking the DJ's voice to the VJ by relaying the RTMP server
+  * Linking the DJ’s stream to the VJ by relaying the RTMP server
   * Connects to the RTMP server for video relay with video that matches the sound in the VJ
   * Distribution while switching the OBS input on the distribution server
 * Overseas performers set up an RTMP server at the performer's place of residence.
