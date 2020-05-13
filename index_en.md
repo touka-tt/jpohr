@@ -5,9 +5,9 @@
   * Takayuki Tominaga
   * [@touka_tt](https://twitter.com/touka_tt)
 * Writing Date.
-  * 2020.05.01
+  * 01.05.2020
 * Updated Date.
-  * 2020.05.13.
+  * 13.05.2020
 ---
 
 ## Abstract
