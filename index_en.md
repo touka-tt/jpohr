@@ -43,7 +43,7 @@ In the meantime, I took the "[huub.club](https://huub.club)".
 
 ## Composition
 ### Configuration diagram
-![HuubDiagram](https://touka1037.github.io/jpohr/HuubDiagram.png)
+![HuubDiagram](https://touka1037.github.io/jpohr/HuubDiagramEn.png)
 * This is an application of the so-called "Music Unity" method.
   * Linking the DJ's voice to the VJ by relaying the RTMP server
   * Connects to the RTMP server for video relay with video that matches the sound in the VJ
