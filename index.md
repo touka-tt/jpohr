@@ -36,7 +36,7 @@
 とりあえず[huub.club](https://huub.club)をとりました。
 * 暇を見つけてそれっぽい告知サイトつくりたい。
   * 仮サイトできました。
-  * リポジトリは(huubclub/huub-web)[https://github.com/huubclub/huub-web]です。
+  * リポジトリは[huubclub/huub-web](https://github.com/huubclub/huub-web)です。
 
 ## 開催予定日
 * 5月〜6月のどこかの週末
@@ -58,13 +58,15 @@
   * AzureのDCから出て行くトラフィックに対して従量課金が発生するので、複数サイトでのミラー配信はしない
     * チャット欄も一箇所の方が盛り上がりそうなので、そういう意味でも一箇所でやったほうが良さそう。
 * 超ザックリとしたAzureのインフラのコスト試算は**1時間当たり約300円**です。
+  * 海外に立てるサーバとその通信費は含んでいません。
+    * 演者が固まり次第改めて試算します。
   * 構築費用とか、保守とかのコストを含んでない
   * すでに別件のイベントで私が構築済みなのでいったん無視します
 * zukutya君に相談したところ、「AWSにMediaLiveっていう動画処理に特化したマネージドサービスあるよ」とのこと。
   * コスト面も含めて要検討
   * AzureにもMediaServiceっていうマネージドサービスあり（使ったことないけど
 
-### 中継サーバRTMPサーバ
+### 中継用RTMPサーバ
 [SRS](https://github.com/ossrs/srs)を使っています。
 低遅延モードで動かすDockerImageを作って公開しました。    
 [https://hub.docker.com/r/touka1037/srs](https://hub.docker.com/r/touka1037/srs)  
@@ -91,10 +93,16 @@ NV6インスタンスの通常価格は¥199.136/hなので、**¥356.4736/hが�
 * VJには私[@touka_tt](https://twitter.com/touka_tt)と、AWSのエンジニアやってるzukutya君[@zukutya](https://twitter.com/zukutya)をアサインしたい気持ち
   * とりあえず彼と会話してみる
   * 実現したらTokyo GabberdiscoのVJコンビになるかな
+  * zukutya受けてくれました。ありがとう。
 
 ### DJ
 * すくなくとも初回はITリテラシー高めの人で固めたい
 * 場所の制約をうけないので、海外のアーティストにも協力いただきたい
+  * 今のところ今のメンバーが協力してくれています。
+    * DJ Sharpnel
+    * Lolistyle Gabbers
+    * BrainShit (from Germany)
+    * Othermoon
 
 ### マネタイズ
 * 配信イベントのマネタイズ難しすぎる
