@@ -90,6 +90,7 @@ docker run -p 1935:1935 -p 1985:1985 -p 8080:8080 touka1037/srs:latest
   * So far, our current members are helping us out.
     * DJ Sharpnel
     * Lolistyle Gabbers
+    * JAKAZiD (from UK)
     * BrainShit (from Germany)
     * Othermoon
 

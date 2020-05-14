@@ -101,6 +101,7 @@ NV6インスタンスの通常価格は¥199.136/hなので、**¥356.4736/hが�
   * 今のところ今のメンバーが協力してくれています。
     * DJ Sharpnel
     * Lolistyle Gabbers
+    * JAKAZiD (from UK)
     * BrainShit (from Germany)
     * Othermoon
 
